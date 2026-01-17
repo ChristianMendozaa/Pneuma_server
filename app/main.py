@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from models import ChatRequest, ChatResponse
-from agent import analyze_data
+from .models import ChatRequest, ChatResponse
+from .agent import analyze_data
 from dotenv import load_dotenv
 import os
 import traceback

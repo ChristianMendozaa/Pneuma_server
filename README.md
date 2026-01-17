@@ -1,1 +1,2 @@
-# Pneuma_server
+# Pneuma Intelligence - Backend Server
+
